@@ -15,12 +15,16 @@ A simple Python-based tool to **encrypt and decrypt files** using symmetric encr
 ### Prompts to use in CLI mode
 -Navigate to the folder where your script and files are located:
   cd Path to your folder
+  
 -Use the -e or --encrypt flag followed by one or more filenames:
   python Crypt(CLI).py -e file1.txt file2.txt
+  
 -Use the -d or --decrypt flag followed by one or more encrypted files:
   python Crypt.py -d file1.txt file2.txt
 #### Notes
 Keep Token.txt safe; it is required for decryption.
+
 The original files are not overwritten unless you modify the script.
+
 Make sure python(3.8) and cryptography module is installed in your terminal.
 
